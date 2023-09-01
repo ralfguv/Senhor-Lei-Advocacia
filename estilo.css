@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+  }
+
+  header {
+    border-bottom: 1px solid #d5d5d5;
+  }
+  
+  header p {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+
+  .largurafixa {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  h1, h2, h3 {
+    margin: 0;
+  }
+
+  .principal {
+    min-height: 400px;
+    background-image: url(./img/capa.jpg);
+    background-size: cover;
+  }
+
+  .principal2 {
+    text-align: right;
+    padding: 35px 5px;
+  }
+
+  .secao {
+    padding: 50px 20px;
+  }
+
+  .secao span {
+    border-left: 1px solid black;
+    padding-left: 5px;
+  }
+
+  .secao-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secao img {
+    margin: 5px;
+    width: 200px;
+    box-shadow: 2px 3px 10px 3px;
+    border-radius: 20px;
+  }
+
+  .secao-imagemfundo1 {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url(./img/fundo.jpg) ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .secao-imagemfundo1 h3 {
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-size: 36px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
